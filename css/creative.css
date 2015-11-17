@@ -4,6 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
 html,
 body {
     width: 100%;
@@ -261,6 +262,7 @@ header .header-content .header-content-inner p {
 .portfolio-box {
     display: block;
     position: relative;
+
     margin: 0 auto;
     max-width: 650px;
 }
@@ -284,6 +286,7 @@ header .header-content .header-content-inner p {
     position: absolute;
     top: 50%;
     width: 100%;
+    vertical-align: middle;
     text-align: center;
     transform: translateY(-50%);
 }
@@ -473,4 +476,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+
+body.modal-open {
+    overflow: visible;
 }
