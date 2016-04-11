@@ -1,6 +1,6 @@
 
 # My personal web page.
-[](arturalkaim.github.io) 
+[arturalkaim.github.io](arturalkaim.github.io) 
 
 
 
